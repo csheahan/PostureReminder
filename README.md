@@ -5,4 +5,4 @@ posture.
 
 ### Supported Operating Systems
 
-- Windows
+- Windows (10)
