@@ -23,3 +23,4 @@ optional arguments:
 ### Supported Operating Systems
 
 - Windows (10)
+- Linux (Ubuntu[14.04 LTS])

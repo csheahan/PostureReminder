@@ -4,6 +4,7 @@ import argparse
 import re
 import sys
 import time
+from modules.linux import linux_toast as linux
 from modules.windows import windows_toast as windows
 
 def main():
@@ -50,7 +51,7 @@ def main():
 
   if (sys.platform.startswith("linux")):
     # The OS is a form of Linux
-    print("Linux")
+    toast_function = linux
   elif (sys.platform == "darwin"):
     # The OS is a form of MAC OS X
     print("MAC")
