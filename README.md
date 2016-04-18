@@ -20,7 +20,7 @@ optional arguments:
                         'mm:ss'.Default is '30:00'
 ```
 
-### Supported Operating Systems
+### Tested Operating Systems
 
 - Windows (10)
 - Linux (Ubuntu[14.04 LTS])

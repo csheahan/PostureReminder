@@ -1,6 +1,5 @@
-from gi.repository import Notify
-
 def sendToast(message, time):
+  from gi.repository import Notify
   Notify.init("Posture Reminder")
   Notify.Notification.new(message).show()
 
