@@ -9,3 +9,11 @@ def sendToast(message, time):
     Notify.Notification.new(message).show()
 
     Notify.uninit()
+
+if __name__ == "__main__":
+  msg = ""
+
+  for line in sys.stdin:
+    msg += line
+
+  sendToast(msg, 5)

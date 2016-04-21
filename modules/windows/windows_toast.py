@@ -15,4 +15,9 @@ def sendToast(message,
           message])
 
 if __name__ == "__main__":
-  send_toast("cat", 5, r".\send_toast_message.ps1")
+  msg = ""
+
+  for line in sys.stdin:
+    msg += line
+
+  sendToast(msg, 5, r".\send_toast_message.ps1")
